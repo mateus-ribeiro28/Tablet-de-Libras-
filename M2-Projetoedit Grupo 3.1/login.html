@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnders</title>
+    <script src="javascript/loginfunc.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="imagens2/logo3.png">
+    <link rel="stylesheet" href="css/estilopages.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #090E73;">
+          <a class="navbar-brand" href="index.html"><img class="imagelogo" src="imagens2/logo3.png" alt="logo" width="200px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="textoNavbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicos.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lista-espera.html">Lista de Espera</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              <a class="nav-link" href="login.html"><button type="button" class="btn btn-primary btn-lg" style="background-color: #118CD9;">Area do Aluno</button></a>
+            </span>
+          </div>
+        </nav>
+    </header>
+    <main id="corpo" class="mt-3">
+      <div class="d-flex col-sm-12 justify-content-end">
+        <img width="40px" data-toggle="dropdown" aria-expanded="false" src="imagens2/imso.png" alt="maolibras">
+        <div class="dropdown-menu p-2 mb-2 text-white" style="background-color: #118CD9;">
+            Acesso em Libras
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-xl-4 col-md-5 col-sm-12">
+            <img class="imgemlogo2" src="imagens2/ahe.png" alt="painel">
+          </div>
+          <div class="d-flex flex-wrap col-xl-4 col-md-4 col-sm-12 mt-1">
+            <h1 class="titulomenor">Tradutor de Libras</h1>
+            <p class="descrição">Seja Bem vindo de volta, entre e aproveite os recursos e as facilidades que temos a oferecer.</p>
+          </div>
+          <div style="background: #1540bf77;border-radius: 5px;" class="col-xl-2 col-md-3 col-sm-12 d-flex flex-wrap ml-1">
+            <form class="p-2">
+              <div class="form-group">
+                <label for=" ">Email</label>
+                <input type="email" placeholder="Digite seu E-mail" class="form-control" id="txemail" required>
+              </div>
+              <div class="form-group">
+                <label for=" ">Senha</label>
+                <input type="password" placeholder="Digite sua Senha" class="form-control" required minlength="1" id="ctds">
+              </div>
+              <div class="form-group">
+                <a href="redefinir.html">Esqueci minha senha</a>
+                <div class="textosmiudos d-flex row justify-content-between">
+                  <p>Ajuda</p><p>Termos de Serviço</p><p>Privacidade</p>
+                </div>
+              </div>
+              <button type="submit" id='logou' class="btn text-white" style="background-color: #118CD9;">Entrar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="fixed-bottom position-relative">
+        <div class="container-fluid" style="background-color: #1540BF; color: #090E73; margin-top: 20rem;">
+          <div class="row">
+            <div class="col-md d-flex justify-content-center align-items-center">
+              <nav class="nav flex-column align-items-center">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="servicos.html">Serviços</a>
+                <a class="nav-link" href="lista-espera.html">Lista de Espera</a>
+                <a class="nav-link active" href="contato.html">Contato</a>
+                <a class="nav-link" href="login.html"><button type="button" class="btn btn-primary btn-lg" style="background-color: #118CD9;">Area do Aluno</button></a>
+              </nav>
+            </div>
+            
+            <div class="col-md d-flex justify-content-center align-items-center">
+                <nav class="nav flex-column align-items-center">
+                  <h3>Conheça</h3>
+                  <a class="nav-link" href="#">Transparência</a>
+                  <a class="nav-link" href="#">Licenciamento</a>
+                  <a class="nav-link" href="#">Parceiros</a>
+                  <a class="nav-link" href="#">Ouvidoria</a>
+                </nav>
+            </div>
+            
+            <div class="col-md d-flex justify-content-center align-items-center">
+                <nav class="nav flex-column align-items-center">
+                  <h3>Explore</h3>
+                  <a class="nav-link" href="#">Alfabeto Libras</a>
+                  <a class="nav-link" href="#">Links úteis</a>
+                  <a class="nav-link" href="#">Solução de problemas</a>
+                  <a class="nav-link" href="#">Atividades</a>
+                </nav>
+            </div>
+            
+            <div class="col-md d-flex justify-content-center align-items-center" style="color: #DFE9F2;">
+              <div class="container justify-content-center align-items-center">
+                <p class="text-center">&copy; Todos os direitos reservados</p>
+                <p class="text-center">Desenvolvido por: FrontEnders Group 3</pclass=>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+
+
+main p{
+    font-size: 1.3125rem;                    
+    font-weight: 700;                         
+    color: #222;
+    margin-bottom: 5rem;                     
+}
+
+main form{
+    display: flex;                            
+    flex-direction: column;                  
+    align-items: center;                     
+    width: 100%;
+    max-width: 28rem;                         /* largura maxima */
+    background: #fff;
+    padding: 4rem;
+    border-radius: 0.5rem;                  
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);   /* sombra da caixa */
+}
+/* etiqueta */
+main label{
+    width: 100%;
+    color: #777;
+    align-self: flex-start;                  
+    transition: 0.15s linear;                 
+}
+
+/* quando clicar para digitar algo a etiqueta vai mudar para essas definições */
+main label:focus-within{                         
+    color: #1540BF;
+}
+
+/* interação com o usuário */
+main input{
+    font-size: 1.1875rem;                    /* tamanho da fonte */
+    color: #404040;
+    padding: 1rem 0 0.5rem 0;
+    width: 100%;
+    border: none;
+    border-color: #000000;                 /* cor das bordas */
+    border-bottom-width: 1px;                /* largura das bordas do botão */
+    border-bottom-style: dotted;             /* estilo das bordas do botão de forma potilhado */
+    margin-bottom: 3rem;                     /* margem do botão */
+    transition: 0.15s linear;                /* transição de forma linear*/
+}
+
+/* quando for digitado a interação */
+main input:focus{
+    outline: none;                           /* contorno de forma nula */
+    border-color: rgb(0, 0, 0);        /* cor das bordas */
+}
+
+main a{
+    text-decoration: none;                 
+}
+
+/* muda a cor das tag A quando chega  com o mouse perto*/
+main a:hover, a:focus{                         
+    outline: none;
+    color: #000;
+}
+
+/* dar espaçamento acima das tag A */
+main a:first-of-type{                             
+    margin-top: 3rem;                        
+}
+
+/* dar espaçamento entre as tag A */
+main a + a{
+    margin-top: 1.125rem;
+}

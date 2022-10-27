@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #DFE9F2;
+}
+
+/*Header*/
+
+.nav-link{
+    color: #118CD9;
+}
+
+.nav-link:hover{
+    color: #090E73;
+}
+
+/*Main*/
+
+/*#form-externo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}*/
+
+
+#botao{
+    display: flex;
+    justify-content: center;
+}
+
+#procurar{
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    padding: 20px;
+}

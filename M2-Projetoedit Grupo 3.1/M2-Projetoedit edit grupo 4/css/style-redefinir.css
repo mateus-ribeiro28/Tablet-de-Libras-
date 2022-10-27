@@ -1,0 +1,48 @@
+
+
+
+.redpara{
+    font-size: 1.3125rem;                    
+    font-weight: 700;                         
+    color: #222;
+    margin-bottom: 5rem;                     
+}
+
+.redform{
+    display: flex;                            
+    flex-direction: column;                  
+    align-items: center;                     
+    width: 100%;
+    max-width: 28rem;                         /* largura maxima */
+    background: #fff;
+    padding: 4rem;
+    border-radius: 0.5rem;                  
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);   /* sombra da caixa */
+}
+
+/* interação com o usuário */
+.redinput{
+    font-size: 1.1875rem;                    /* tamanho da fonte */
+    color: #404040;
+    padding: 1rem 0 0.5rem 0;
+    width: 100%;
+    border: none;
+    border-color: #000000;                 /* cor das bordas */
+    border-bottom-width: 1px;                /* largura das bordas do botão */
+    border-bottom-style: dotted;             /* estilo das bordas do botão de forma potilhado */
+    margin-bottom: 3rem;                     /* margem do botão */
+    transition: 0.15s linear;                /* transição de forma linear*/
+}
+
+/* quando for digitado a interação */
+.redinput:focus{
+    outline: none;                           /* contorno de forma nula */
+    border-color: rgb(0, 0, 0);        /* cor das bordas */
+}
+
+
+/* muda a cor das tag A quando chega  com o mouse perto*/
+.redlinka:hover, .redlinka:focus{                         
+    outline: none;
+    color: #000;
+}
